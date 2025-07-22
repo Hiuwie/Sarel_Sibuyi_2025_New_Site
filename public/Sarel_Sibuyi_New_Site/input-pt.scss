@@ -1,0 +1,174 @@
+@import "mixin";
+@import "colours";
+@font-family: 'Montserrat', sans-serif;
+
+
+/*colours*/
+$absa-one:#640032;
+$absa-two:#F0325A;
+$absa-three:#DC0A32;
+$absa-four:#AF144B;
+$absa-five:#DC445C;
+$black:#0d0d0d;
+$white:#fff;
+
+body{
+	
+	@include body-setup;
+	@include SN-logo;
+	@include back-btn;
+
+	header{
+		background-image:url(Assets/Images/PtwoBG.jpg);
+		background-repeat:no-repeat;
+		background-position: center;
+		background-size:cover;
+		background-origin:content-box;
+
+		.row{
+			.projects-title{
+				@include Section-page-size;
+
+				h1{
+					color:$SN-white;
+					text-align:center;
+					font-size:54px;
+					font-weight:600;
+					margin:auto;
+					margin-left:38%;
+				}
+
+				img {
+					height: 50%;
+					width: 30%;
+					position:absolute;
+					margin-top:13%;
+					margin-left: 10%;
+				}
+			}
+		}
+	}
+
+	.project-goal{
+		background-color:#FAFAFA;
+		.row{
+			.project-description-area{
+				@include Section-page-size;
+
+				h4{
+					color:$black;
+					text-align:center;
+					margin:auto;
+					font-size:26px;
+				}
+			}
+		}
+	}
+
+	.description-with-product{
+		background-color:$black;
+
+		.row{
+			.description-area{
+				@include Section-page-size;
+
+				p{
+					color:$white;
+					font-size:26px;
+					margin:auto;
+					margin-left:10%;
+					border-left: 10px solid $absa-five;
+					padding:1%;
+				}
+
+				img{
+					height: 90vh;
+					width: 80%;
+					position:absolute;
+					margin-right:-15%;
+					margin-top: -10%;
+					right:0;
+				}
+			}
+		}
+	}
+
+	.product-view{
+		background-color:#FAFAFA;
+		.row{
+			.product-area{
+				@include Section-page-size;
+
+				.twofa_old{
+					height: 80vh;
+					
+					position:absolute;
+					margin-top:2%;
+					margin-left:5%;
+					left:0;
+				}
+
+				p{
+					color:$black;
+					font-size:26px;
+					font-weight:600;
+					margin:auto;
+					margin-left:35%;
+				}
+
+				.twoFA{
+					height: 60vh;
+					
+					position:absolute;
+					margin-top:7%;
+					margin-right:5%;
+					right:0;
+				}
+
+				.twoFA_C{
+					height: 60vh;
+					
+					position:absolute;
+					margin-top:7%;
+					margin-right:20%;
+					right:0;
+				}
+				
+			}
+		}
+	}
+
+	.conclusion-page{
+		background:linear-gradient(rgba($black,.9), rgba($black,.9) ), url(Assets/Images/PTGB.jpg) no-repeat center center /cover;
+
+		.row{
+			.ending-thoughts{
+				@include Section-page-size;
+
+				p{
+					color:$white;
+					font-size:26px;
+					margin:auto;
+					text-align:center;
+					z-index:5;
+				}
+
+				img {
+					height: 50%;
+					width: 30%;
+					position:absolute;
+					margin-top:5%;
+					margin-right: 10%;
+					right:0;
+				}
+
+			}
+		}
+	}
+
+	@include learnings-area;
+
+	footer{
+		@include page-footer;
+	}
+}

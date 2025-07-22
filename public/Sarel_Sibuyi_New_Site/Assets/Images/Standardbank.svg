@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="391" height="391" viewBox="0 0 391 391">
+  <defs>
+    <clipPath id="clip-Standardbank">
+      <rect width="391" height="391"/>
+    </clipPath>
+  </defs>
+  <g id="Standardbank" clip-path="url(#clip-Standardbank)">
+    <g id="Group_20" data-name="Group 20" transform="translate(55.874 21.417)">
+      <path id="Path_3" data-name="Path 3" d="M189.994,390.461l-.513,49.88,14.124,9.778L326.735,697.1l-25.713,9.778s-136.892-34.4-139.608-165.863L166.3,383.483s-3.259-7.605,19.013-13.037,123.854-23.63,231.373,0c0,0,13.891,4.074,18.02,13.037l5.378,154.275s7.062,80.94-87.459,143.953L277.121,532.749s8.148-12.373,43.458-8.028c0,0,22.272,21.484,59.754,8.028,0,0,30.42-11.287,34.766-16.719l-1.086-82.57s-18.47,13.309-39.655,14.939c-45.5,3.5-79.358-17.706-80.94-18.741-18.424-12.054-52.095-1.735-61.927,7.605V419.336Z" transform="translate(-161.415 -358.629)" fill="none" stroke="#f2c84b" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+      <path id="Path_4" data-name="Path 4" d="M169.515,395.305l99.228,199.543s-91.261-43.82-99.228-121.681Z" transform="translate(-145.07 -284.622)" fill="none" stroke="#f2c84b" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+      <path id="Path_5" data-name="Path 5" d="M211.275,428.477l47.441,90.175s45.631-24.264,55.771-98.866c0,0-47.8,42.009-101.4,6.157l-1.811-1.268Z" transform="translate(-60.803 -235.224)" fill="none" stroke="#f2c84b" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+      <path id="Path_6" data-name="Path 6" d="M182.205,371.564s97.87-15.935,189.131,6.881v15.937s-32.539,39.036-113.651-.027c0,0-28.079-12.289-48.953-1.787Z" transform="translate(-119.463 -343.45)" fill="none" stroke="#f2c84b" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+    </g>
+  </g>
+</svg>

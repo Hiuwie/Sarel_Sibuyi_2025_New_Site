@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="134" viewBox="0 0 134 134">
+  <defs>
+    <clipPath id="clip-Button_arrow_1">
+      <rect width="134" height="134"/>
+    </clipPath>
+  </defs>
+  <g id="Button_arrow_1" data-name="Button arrow – 1" clip-path="url(#clip-Button_arrow_1)">
+    <g id="invisible_box" data-name="invisible box" transform="translate(-28.369 -28.369)">
+      <rect id="Rectangle_200" data-name="Rectangle 200" width="190" height="190" transform="translate(0.369 0.369)" fill="none"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(131.519 132.519) rotate(180)">
+      <g id="invisible_box-2" data-name="invisible box" transform="translate(-0.104 -0.104)">
+        <rect id="Rectangle_201" data-name="Rectangle 201" width="132" height="132" transform="translate(-0.378 -0.378)" fill="none"/>
+      </g>
+      <g id="icons_Q2" data-name="icons Q2" transform="translate(5.443 5.443)">
+        <path id="Path_54" data-name="Path 54" d="M12.923,62.075a49.152,49.152,0,1,1,49.152,49.152A49.152,49.152,0,0,1,12.923,62.075M2,62.075a59.8,59.8,0,1,0,17.515-42.56A60.075,60.075,0,0,0,2,62.075Z" transform="translate(-2 -2)" fill="#f2c84b"/>
+        <path id="Path_55" data-name="Path 55" d="M38.731,41.3,20.709,59.327a5.188,5.188,0,0,0,.546,8.192,5.734,5.734,0,0,0,7.373-.546L50.2,45.128a5.188,5.188,0,0,0,0-7.646L28.628,15.637a5.734,5.734,0,0,0-7.373-.546,5.188,5.188,0,0,0-.546,8.192Z" transform="translate(27.352 18.77)" fill="#f2c84b"/>
+      </g>
+    </g>
+  </g>
+</svg>

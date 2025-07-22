@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="134" viewBox="0 0 134 134">
+  <defs>
+    <clipPath id="clip-Button_arrow">
+      <rect width="134" height="134"/>
+    </clipPath>
+  </defs>
+  <g id="Button_arrow" data-name="Button arrow" clip-path="url(#clip-Button_arrow)">
+    <g id="invisible_box" data-name="invisible box" transform="translate(-28.369 -28.369)">
+      <rect id="Rectangle_200" data-name="Rectangle 200" width="190" height="190" transform="translate(0.369 0.369)" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons" transform="translate(7.398 11.376)">
+      <path id="Path_52" data-name="Path 52" d="M78.535,118.869l47.284-47.681a7.549,7.549,0,0,0,0-11.126L78.535,12.381a8.344,8.344,0,0,0-10.728-.795,7.55,7.55,0,0,0-.795,11.92l34.171,34.171H16.947a7.947,7.947,0,0,0,0,15.894h84.237L67.012,107.743a7.549,7.549,0,0,0,.795,11.92,8.344,8.344,0,0,0,10.728-.795Z" transform="translate(-9 -10.001)" fill="#f2c84b"/>
+    </g>
+  </g>
+</svg>

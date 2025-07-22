@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="746" height="1030" viewBox="0 0 746 1030">
+  <defs>
+    <clipPath id="clip-Count_down">
+      <rect width="746" height="1030"/>
+    </clipPath>
+  </defs>
+  <g id="Count_down" clip-path="url(#clip-Count_down)">
+    <text id="_45_sec" data-name="45 sec" transform="translate(368 405)" fill="#fafafa" font-size="96" font-family="Montserrat-SemiBold, Montserrat, sans-serif" font-weight="600"><tspan x="-156.192" y="0">45 sec</tspan></text>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M344,688a346.8,346.8,0,0,1-69.326-6.986,342.3,342.3,0,0,1-123-51.764A345.044,345.044,0,0,1,27.037,477.9,341.929,341.929,0,0,1,6.993,413.328,346.489,346.489,0,0,1,0,344H34.192c0,82.625,32.263,160.39,90.845,218.97S261.382,653.814,344,653.814c170.83,0,309.811-138.982,309.811-309.814S514.834,34.186,344,34.186V0a346.5,346.5,0,0,1,69.326,6.989,342.017,342.017,0,0,1,123,51.762A344.976,344.976,0,0,1,660.969,210.1a342.269,342.269,0,0,1,20.044,64.573,347.428,347.428,0,0,1,0,138.653,342.068,342.068,0,0,1-51.762,123A344.964,344.964,0,0,1,477.9,660.964a342.08,342.08,0,0,1-64.571,20.05A346.7,346.7,0,0,1,344,688Z" transform="translate(29 29)" fill="#dc445c"/>
+    <text id="awaiting_approval_" data-name="awaiting approval " transform="translate(361 921)" fill="#fafafa" font-size="68" font-family="Montserrat-Medium, Montserrat, sans-serif" font-weight="500"><tspan x="-317.934" y="0">awaiting approval </tspan></text>
+  </g>
+</svg>

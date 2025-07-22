@@ -1,0 +1,213 @@
+@import "mixin";
+@import "colours";
+@font-family: 'Montserrat', sans-serif;
+
+body{
+	@include body-setup;
+	@include SN-logo;
+	@include menu-nav;
+
+	header{
+
+		.row{
+			.projects-intro{
+				height:100vh;
+				display:flex;
+				background:linear-gradient(rgba($SN-Blue,.8), rgba($SN-Blue,.8) ), url(Assets/Images/Project-bg1.jpg) no-repeat center center /cover;
+
+				background-attachment: fixed;
+				
+
+				justify-content: center;
+				justify-items: center;
+				flex-direction: column;
+
+				h1{
+					font-weight:600;
+					font-size:59px;
+					text-align:center;
+					margin:auto;
+					margin-top:20%;
+					color: $SN-white;
+				}
+
+				h3{
+					position:absolute;
+					top:50%;
+					left:(85%)/2;
+					font-weight:400;
+					font-size:28px;
+					color: $SN-Gold;
+				}
+
+
+				.project-headings{
+					// background-color:$SN-white;
+					height:auto;
+					width:auto;
+					margin:auto;
+					// margin-top:-6.5vh;
+					display:flex;
+					gap: 10px;
+					padding: 20px;
+					
+
+					a{
+
+						.headings{
+							background-color:$SN-Gold;
+							width: 145px;
+							height: 145px;
+							display: flex;
+							margin: auto;
+							filter: drop-shadow(0px 24px 4px 36% #1A2025);
+
+							box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+							border-radius:5px ;
+							-webkit-border-radius:5px ;
+							-moz-border-radius:5px ;
+							-ms-border-radius:5px ;
+							-o-border-radius:5px ;
+							-webkit-filter: drop-shadow(0px 24px 4px 36% #1A2025);
+							
+							transition: transform .2s;
+
+							ul{
+					
+								list-style-type: none;
+								text-decoration: none;
+								margin: auto;
+								width: 144px;
+								height:144px;
+								
+
+								// background-color: aqua;
+								// margin-left: -30px;
+						
+								
+								overflow: hidden;
+								
+								display: flex;
+								text-wrap: wrap;
+								align-items: center;
+								justify-content: center;
+
+								li {
+								
+								
+									
+									margin-left: -40px;
+									color: $SN-Blue;
+									text-align: center;
+							
+	
+								}
+							}
+
+							
+						}
+
+						&:hover{
+							text-decoration: none;
+							transform: scale(1.05);
+							-webkit-transform: scale(1.05);
+							-moz-transform: scale(1.05);
+							-ms-transform: scale(1.05);
+							-o-transform: scale(1.05);
+}
+					}
+				}
+
+			}
+
+			.projects-title{
+				
+			}
+		}
+	}
+
+	.project{
+		height: 75vh;
+	}
+
+	.project-one{
+		background-color:$SN-Blue;
+		@include left-image-right-text;
+	}
+
+	.project-two{
+		background-color:$SN-white;
+		@include right-image-left-text;
+	}
+
+	.project-three{
+		background-color:$SN-Blue;
+		@include left-image-right-text;
+	}
+
+	.project-outro{
+		background-color:$SN-white;
+
+		.row{
+			.product-title-area{
+				.product-title{
+					p{
+						a{
+							color:$SN-Gold;
+						}
+					}
+				}
+			}
+		}
+		
+		@include right-image-left-text;
+	}
+
+	.project-outro-contact{
+		background-color:$SN-Blue;
+			.row{
+				.reach-out-area{
+					height:75vh;
+					display:flex;
+
+					.reach-out-box{
+						margin:auto;
+
+						h3{
+							font-weight:600;
+							font-size: 62px;
+							color:$SN-Gold;
+						}
+
+						.contact-icons{
+							margin:auto;
+							margin-top:5%;
+							width:25%;
+							display:flex;
+
+							.socials{
+								margin:auto;
+								display:flex;
+
+								img{
+									margin:auto;
+									height:60px;
+									width:80px;
+								}	
+
+								.whatsapp{
+									height:50px;
+									width:60px;
+								}
+							}
+						}
+					}
+
+				}
+			}
+	}
+
+	footer{
+		@include page-footer;
+	}	
+}

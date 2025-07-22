@@ -1,0 +1,122 @@
+@import "mixin";
+@import "colours";
+@font-family: 'Montserrat', sans-serif;
+
+body{
+	@include body-setup;
+	@include SN-logo;
+	@include menu-nav;
+
+	.hire-area{
+		height:100vh;
+
+		.row{
+			.hire-section{
+				height:100vh;
+				display:flex;
+				background:linear-gradient(rgba($SN-white,.8), rgba($SN-white,.8) ), url(Assets/Images/Contact-bg1.jpg) no-repeat center center /cover;
+
+				background-attachment: fixed;
+				min-height: 500px; 
+
+				.hire-box{
+					margin:auto;
+
+					
+					h3{
+						font-weight:600;
+						font-size: 62px;
+							
+						a{
+							color:$SN-Blue;
+							text-decoration:none;
+						}
+					}
+
+					h3:hover{
+						a{
+							color:$SN-Gold;
+						}
+					}
+
+						
+					.mail-icon{
+						height:50px;
+						width:80px;
+						margin:auto;
+						display:flex;
+
+						img{
+							margin:auto;
+							height:60px;
+							width:90px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.follow-area{
+		height:100vh;
+
+		.row{
+			.follow-section{
+				height:100vh;
+				display:flex;
+				background-color:$SN-Blue;
+
+				.follow-box{
+					margin:auto;
+
+					h3{
+						font-weight:600;
+						font-size: 62px;
+						color:$SN-Gold;
+					}
+
+					.social-icons{
+						margin:auto;
+						margin-top:5%;
+						width: 50%;
+						display:flex;
+
+						.socials{
+							height:80px;
+							width:120px;
+							margin:auto;
+							display:flex;
+
+							img{
+								margin:auto;
+								height:60px;
+								width:80px;
+							}
+							
+						}
+
+						.linkedin{
+						
+						}
+
+						.whatsapp{
+						
+						}
+
+						.behance{
+							img{
+								height:70px;
+								width:90px;
+							}
+						}
+
+					}
+				}
+			}
+		}
+	}
+
+	footer{
+		@include page-footer;
+	}	
+}

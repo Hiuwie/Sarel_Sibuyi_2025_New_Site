@@ -1,0 +1,238 @@
+/* below button from codepen*/
+/*-input pl--------------------------------------------------------------------------------------------------------------*/
+@font-family : "Montserrat", sans-serif;
+/*colours*/
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+body .logo-area {
+  position: fixed;
+  z-index: 5;
+  top: 40px;
+  left: 40px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  cursor: pointer;
+}
+body .logo-area a img {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
+body .back-button {
+  height: 50px;
+  width: 130px;
+  position: fixed;
+  z-index: 5;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  cursor: pointer;
+}
+body .back-button .button-area {
+  margin: auto;
+  display: flex;
+}
+body .back-button .button-area img {
+  height: 35px;
+  width: 35px;
+  margin: auto;
+  padding: 3%;
+}
+body .back-button .button-area p {
+  text-decoration: none;
+  color: #F2C84B;
+  text-align: center;
+  margin: auto;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 3%;
+}
+body .back-button:hover .button-area p {
+  color: #182026;
+  text-decoration: none;
+}
+body header {
+  background: linear-gradient(rgba(4, 191, 174, 0.3), rgba(4, 191, 174, 0.3)), url(Assets/Images/Students.jpg) no-repeat center center/cover;
+}
+body header .row .projects-title {
+  height: 85vh;
+  display: flex;
+}
+body header .row .projects-title .green-block {
+  height: 25%;
+  width: 35%;
+  margin-left: 35%;
+  background-color: #04BFAE;
+  position: absolute;
+  opacity: 31%;
+}
+body header .row .projects-title h1 {
+  color: #FAFAFA;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 600;
+  margin: auto;
+}
+body header .row .projects-title img {
+  height: 50%;
+  width: 35%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -5%;
+}
+body .project-goal .row .project-description-area {
+  height: 85vh;
+  display: flex;
+}
+body .project-goal .row .project-description-area h4 {
+  color: #0d0d0d;
+  text-align: center;
+  margin: auto;
+  font-size: 26px;
+}
+body .project-goal .row .project-description-area img {
+  height: 40%;
+  width: 25%;
+  position: absolute;
+  margin-right: -5%;
+  margin-top: -5%;
+  right: 0;
+}
+body .description-with-product {
+  background-color: #04BFAE;
+}
+body .description-with-product .row .description-area {
+  height: 85vh;
+  display: flex;
+}
+body .description-with-product .row .description-area .A-logo {
+  height: 20%;
+  width: 30%;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 2%;
+  left: 0;
+}
+body .description-with-product .row .description-area p {
+  color: #fff;
+  font-size: 26px;
+  margin: auto;
+  margin-left: 10%;
+  padding: 1%;
+}
+body .description-with-product .row .description-area img {
+  height: 90vh;
+  width: 80%;
+  position: absolute;
+  margin-right: -15%;
+  right: 0;
+}
+body .product-view .row .product-area {
+  height: 85vh;
+  display: flex;
+}
+body .product-view .row .product-area video {
+  width: 100%;
+}
+body .conclusion-page {
+  background: linear-gradient(rgba(4, 191, 174, 0.9), rgba(4, 191, 174, 0.9)), url(Assets/Images/Contact-bg3.jpg) no-repeat center center/cover;
+}
+body .conclusion-page .row .ending-thoughts {
+  height: 85vh;
+  display: flex;
+}
+body .conclusion-page .row .ending-thoughts p {
+  color: #fff;
+  font-size: 26px;
+  margin: auto;
+  text-align: center;
+  z-index: 5;
+}
+body .conclusion-page .row .ending-thoughts img {
+  height: 20%;
+  width: 30%;
+  position: absolute;
+  margin-top: 5%;
+  margin-right: 2%;
+  right: 0;
+}
+body .my-learnings-area .row .my-thoughts {
+  height: 75vh;
+  display: flex;
+  color: #0d0d0d;
+}
+body .my-learnings-area .row .left .name-image-area {
+  margin: auto;
+  margin-right: 1%;
+  height: 40vh;
+  width: 30%;
+}
+body .my-learnings-area .row .left .name-image-area .profile-area {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+}
+body .my-learnings-area .row .left .name-image-area .profile-area img {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 4px #F2C84B solid;
+}
+body .my-learnings-area .row .left .name-image-area .name-area {
+  display: block;
+}
+body .my-learnings-area .row .left .name-image-area .name-area h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+}
+body .my-learnings-area .row .left .name-image-area .name-area h4 {
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+}
+body .my-learnings-area .row .right .text-area {
+  margin: auto;
+  margin-left: 1%;
+  display: block;
+  width: 80%;
+}
+body .my-learnings-area .row .right .text-area h3 {
+  font-size: 26;
+  font-weight: 600;
+  padding: 2%;
+}
+body .my-learnings-area .row .right .text-area p {
+  font-size: 18;
+  padding: 3%;
+}
+body footer {
+  height: 10vh;
+  width: 100%;
+}
+body footer .row .footer {
+  height: 100%;
+  display: flex;
+  padding: 0;
+}
+body footer .row .footer p {
+  margin-top: 3.5%;
+  text-align: center;
+  color: #182026;
+}
+body footer .row .left-footer P {
+  margin-left: 10%;
+}
+body footer .row .right-footer P {
+  margin-left: 25%;
+}
+
+/*# sourceMappingURL=stylesheetPFour.css.map */

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="134" viewBox="0 0 134 134">
+  <defs>
+    <clipPath id="clip-Linkedin">
+      <rect width="134" height="134"/>
+    </clipPath>
+  </defs>
+  <g id="Linkedin" clip-path="url(#clip-Linkedin)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1 1)">
+      <g id="invisible_box" data-name="invisible box">
+        <rect id="Rectangle_191" data-name="Rectangle 191" width="133" height="133" fill="none"/>
+        <rect id="Rectangle_192" data-name="Rectangle 192" width="133" height="133" fill="none"/>
+      </g>
+      <g id="icons_Q2" data-name="icons Q2" transform="translate(11.083 11.356)">
+        <path id="Path_42" data-name="Path 42" d="M106.521,4.1H12.313A8.035,8.035,0,0,0,4,12.138v94.485a8.035,8.035,0,0,0,8.312,8.035h94.208a8.035,8.035,0,0,0,8.035-8.035V12.138A8.035,8.035,0,0,0,106.521,4.1ZM36.973,98.311H20.348V45.666H36.973ZM28.66,38.461a9.7,9.7,0,0,1-9.421-9.7,9.421,9.421,0,1,1,18.842,0,9.7,9.7,0,0,1-9.421,9.7Zm69.548,59.85H81.86V72.543c0-6.1,0-13.854-8.59-13.854s-9.7,6.65-9.7,13.577V98.311H47.225V45.666H62.742v7.2h.277a17.179,17.179,0,0,1,15.517-8.59c16.625,0,19.673,10.806,19.673,25.215Z" transform="translate(-4 -4.098)" fill="#f2c84b"/>
+      </g>
+    </g>
+  </g>
+</svg>
