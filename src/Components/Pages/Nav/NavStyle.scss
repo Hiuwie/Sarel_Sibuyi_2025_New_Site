@@ -1,0 +1,51 @@
+.nav{
+    height:176px;
+    width: 100%;
+    // background-color: aqua;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+
+    .logo-area{
+        height: 100px;
+        width: 100px;
+        // background-color: bisque;
+        margin: auto;
+        margin-left: 140px;
+       justify-content: center;
+       align-items: center;
+
+       img{
+        height: 100%;
+        width: 100%;
+       }
+    }
+
+    .communcations{
+        width: 248px;
+        height: 65px;
+        // background-color: azure;
+        margin: auto;
+        margin-right: 75px;
+
+        display: flex;
+        flex-direction: row;
+
+        .communication{
+            margin: auto;
+            height: 54px;
+            width: 54px;
+            // background-color: aqua;
+
+            img{
+                height: 100%;
+                width: 100%;
+                // background-color: black;
+            }
+        }
+
+    }
+    
+}

@@ -1,0 +1,40 @@
+.nav {
+  height: 176px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+}
+.nav .logo-area {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-left: 140px;
+  justify-content: center;
+  align-items: center;
+}
+.nav .logo-area img {
+  height: 100%;
+  width: 100%;
+}
+.nav .communcations {
+  width: 248px;
+  height: 65px;
+  margin: auto;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: row;
+}
+.nav .communcations .communication {
+  margin: auto;
+  height: 54px;
+  width: 54px;
+}
+.nav .communcations .communication img {
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=NavStyle.css.map */
